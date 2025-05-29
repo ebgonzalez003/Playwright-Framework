@@ -14,6 +14,7 @@ test('verify user can access to the Home Page', async ({ page }) => {
   await homeMap.banner()
 
 });
+
 test('verify user can fill all the form', async ({ page }) => {
   const login = new LoginPageMap(page)
   const mainMap = new MainPageMap(page)
