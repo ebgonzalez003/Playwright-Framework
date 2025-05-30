@@ -1,8 +1,12 @@
 {
   "name": "playwrightframework",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,15 +15,6 @@
     "@types/node": "^22.15.24",
     "dotenv": "^16.5.0"
   },
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "fsevents": "^2.3.2",
-    "playwright": "^1.52.0",
-    "playwright-core": "^1.52.0",
-    "undici-types": "^6.21.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebgonzalez003/Playwright-Framework.git"
@@ -27,6 +22,5 @@
   "bugs": {
     "url": "https://github.com/ebgonzalez003/Playwright-Framework/issues"
   },
-  "homepage": "https://github.com/ebgonzalez003/Playwright-Framework#readme",
-  "description": ""
+  "homepage": "https://github.com/ebgonzalez003/Playwright-Framework#readme"
 }
