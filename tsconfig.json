@@ -1,0 +1,7 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // ...otros valores...
+    "types": ["node"]
+  }
+}
